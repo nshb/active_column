@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "active_column"
   s.version     = ActiveColumn::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Michael Wynholds"]
+  s.authors     = ["Michael Wynholds", "Nathan Brown"]
   s.email       = ["mike@wynholds.com"]
   s.homepage    = "https://github.com/carbonfive/active_column"
   s.summary     = %q{Provides time line support and database migrations for Cassandra}
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'cassandra', '>= 0.12'
-  s.add_dependency 'simple_uuid', '~> 0.1.0'
+  s.add_dependency 'simple_uuid', '~> 0.2.0'
   s.add_dependency 'rake'
 
   s.add_development_dependency 'rails', '>= 3.0'
