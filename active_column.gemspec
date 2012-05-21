@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'cassandra', '>= 0.12'
-  s.add_dependency 'simple_uuid', '~> 0.1.0'
-  s.add_dependency 'rake', '0.8.7'
+  s.add_dependency 'cassandra', '>= 0.12.2'
+  s.add_dependency 'simple_uuid', '~> 0.2.0'
+  s.add_dependency 'rake', '~> 0.9.2.2'
 
   s.add_development_dependency 'rails', '>= 3.0'
   s.add_development_dependency 'rspec-rails', '>= 2.5.0'

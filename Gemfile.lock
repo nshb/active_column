@@ -3,7 +3,7 @@ PATH
   specs:
     active_column (0.2)
       cassandra (>= 0.12)
-      rake
+      rake (~> 0.9.2.2)
       simple_uuid (~> 0.2.0)
 
 GEM

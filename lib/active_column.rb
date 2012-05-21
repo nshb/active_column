@@ -1,4 +1,4 @@
-require 'cassandra/0.8' unless defined? ::Cassandra
+require 'cassandra/1.0' unless defined? ::Cassandra
 require 'benchmark'
 require 'yaml'
 
